@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    
+    <div class="container">
+         <header class="top-bar">
+            <div class="input-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <input class="location-input" type="text" placeholder="Search City" >
+                
+              </div>
+              <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+             
+         </header>
+          <br><br><br>
+          <div class="country">
+            <i class="fa-solid fa-location-dot"></i><h4 class="cityName">Delhi</h4>
+          </div><br>
+         <div class="temp-s">
+            <div class="weather">
+            <p>Now</p>
+            <h1 class="tempC">31°C</h1>
+            
+            </div>
+            <div class="imageDisplay">
+              <img src="clear-sky.png" class="weatherImage">
+            </div>
+            <div class="right-weather">
+                <h3 class="sky">Sunny</h3>
+                <h6 class="feelsLike">33°C</h6>
+            </div>
+         </div>
+         <div class="maxmin">
+            High:<a class="high">22°C</a>
+            Low:<a class="low">18°C</a>
+         </div><br>
+         
+         <h3>Hourly forecast</h3><br>
+         <div class="hourly">
+               <div class="hourly-1">
+                  <h5 class="hourlyTemp"> 32°C </h5>
+                  <img src="contrast.png" class="hourlyImg">
+                  <h5 class="hourlyTime">8 am</h5>
+               </div>
+
+               <div class="hourly-1">
+                  <h5 class="hourlyTemp"> 32°C </h5>
+                  <img src="contrast.png" class="hourlyImg">
+                  <h5 class="hourlyTime">9am</h5>
+               </div>
+
+               <div class="hourly-1">
+                  <h5 class="hourlyTemp"> 32°C </h5>
+                  <img src="contrast.png" class="hourlyImg">
+                  <h5 class="hourlyTime">10 am</h5>
+               </div>
+
+               <div class="hourly-1">
+                  <h5 class="hourlyTemp"> 32°C </h5>
+                  <img src="contrast.png" class="hourlyImg">
+                  <h5 class="hourlyTime">11 pm</h5>
+               </div>
+
+            </div><br>
+         
+
+         <h3>5-day forecast</h3><br>     
+         <div class="ten-day">
+            <div class="forDate">
+            <h4 class="date">Today</h6>
+               <img src="foggy.png" class="image">
+            <h4 class="tempDetail">28°C</h4></div>
+
+            <div class="forDate">
+               <h4 class="date">Tomorrow</h6>
+                  <img src="foggy.png" class="image">
+               <h4 class="tempDetail">30°C</h4></div>
+              
+
+                   
+         </div>
+         <h4>Current Conditions</h4><br>
+         <div class="currentCond">
+
+            <div class="humidity">
+               <h3>Humidity</h3>
+               <img src="humidity.png" class="humid-img">
+               <h5 class="humid-ity">33%</h5>
+               
+            </div>
+
+            <div class="windSpeed">
+               <h3>Wind Speed</h3>
+               <img src="wind.png" class="wind-img">
+               <h4 class="speedValue">2.06</h4>
+            </div>
+            
+         </div>
+         <div class="currentCond">
+
+            <div class="humidity">
+               <h3>Air pressure</h3>
+               <img src="air.png" class="humid-img">
+               <h5 class="pressure">1011hPa</h5>
+               
+            </div>
+
+            <div class="windSpeed">
+               <h3>Visibility</h3>
+               <img src="visibility.png" class="visi-img"><br>
+               <h4 class="visib-ility">2.06km</h4>
+            </div>
+            
+         </div>
+         
+    </div>
+
+    <script src="index4.js"></script>
+</body>
+</html>
